@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+    <title>Contact Page</title>
+</head>
+<body>
+    <div class="contact-page">
+        <p>Email me directly here: </p>
+        <a href="mailto:test@email.com" target="_blank"><button class="btn btn-contact">Gmail <i class="fas fa-envelope-open"></i></button></a>
+
+        <p>Or fill this form: </p>
+        <form class="contact-form " action="mailto:test@email.com" method="post">
+            <div class="form_input">
+                <label for="name">Name</label>
+                <input type="text">
+            </div>
+            <div class="form_input">
+                <label for="email">Email</label>
+                <input type="email">
+            </div>
+            <div class="form_input">
+                <label for="message">Message</label>
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+
+        </form>
+    </div>
+    <footer class="footer">
+        <!--doesn't have container class because i I wanted to style it with a black background and couldn't do that with the padding/margin of the container-->
+        <div>
+          <p>Samuel Nonyelu 2022 <i class="fas fa-copyright"></i></p>
+          <p>Designed using pure HTML and CSS</p>
+        </div>
+      </footer>
+</body>
+</html>
